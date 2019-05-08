@@ -34,6 +34,7 @@ After EDA, the data had to be reshaped to be able to work with surprise.  It had
 - BeautifulSoup
 - Sklearn
 - Matplotlib
+- Seaborn
 - Pandas
 - Numpy
 - Wordcloud
