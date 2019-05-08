@@ -10,20 +10,20 @@ Everyone enjoys a good drink, but what is a good drink? Everyone has different t
 Data from BeerAdvocate.com 
 
 ## Exploratory Data Analysis 
-This shows the amount of reviews by beer type in the dataset: 
+This shows the amount of reviews by beer type of the 10 most popular styles of beer in the dataset: 
 
 ![image of spreadsheet](/readme/OxfordPetData.png)
 
+If we group the styles together into more broad styles we can see just how popular IPAs are:
+
+This shows the most popluar breweries in the dataset:
+
+And this show what kinds of beer they are brewing:
+
 ## Data Organization 
-After EDA, the data had to be reshaped to be able to work with surprise.
-
-## Best Model Results
-Our best performing model had a tvalidation accuracy and a test accuracy score of 88%. We used transfer learning and stacked two CNN models on top of each other (VGG19 and Resnet50). However this model took a long time to run and would crash colabs from using too much RAM.
-
-![image of best model outcomes](/readme/BestModel.png)
+After EDA, the data had to be reshaped to be able to work with surprise.  It had to be in a pandas DataFrame with the columns: User ID, Item and Review.
 
 ## Model Results
-Given the computing power problems we actually perfer our second best model as it has a validation accuracy score of 83%, only took 10 minitues to run and doesn't crash Colabs. This model uses InceptionV# with weights as the base model.
 
 ![image of next model outcomes](/readme/imagenet2_testcm.png)
 
@@ -36,12 +36,9 @@ Given the computing power problems we actually perfer our second best model as i
 - Matplotlib
 - Pandas
 - Numpy
-- Itertools
+- Wordcloud
 - Scipy 
-- Random
-- os
-- shutil 
-- re
+- ipywidgets
 
 ## Credits
 By Lois Rosenbloom 
