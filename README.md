@@ -12,22 +12,26 @@ Data from BeerAdvocate.com
 ## Exploratory Data Analysis 
 This shows the amount of reviews by beer type of the 10 most popular styles of beer in the dataset: 
 
-![image of spreadsheet](/readme/OxfordPetData.png)
+![image of 10 most popular individual beer styles in dataset](/readme/OxfordPetData.png)
 
 If we group the styles together into more broad styles we can see just how popular IPAs are:
 
+![image of 10 most popular grouped beers styles in dataset](/readme/OxfordPetData.png)
+
 This shows the most popluar breweries in the dataset:
 
+![image of 10 most popular breweries in dataset](/readme/OxfordPetData.png)
+
 And this show what kinds of beer they are brewing:
+
+![image of 10 most popular breweries with breakdown of styles of beer brewed in dataset](/readme/OxfordPetData.png)
 
 ## Data Organization 
 After EDA, the data had to be reshaped to be able to work with surprise.  It had to be in a pandas DataFrame with the columns: User ID, Item and Review.
 
 ## Model Results
 
-![image of next model outcomes](/readme/imagenet2_testcm.png)
-
-![image of next model outcomes per epoch](/readme/validation.png)
+![image of model outcomes](/readme/imagenet2_testcm.png)
 
 ## Frameworks / Libraries Used:
 - Surprise! 
