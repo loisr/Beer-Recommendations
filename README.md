@@ -29,6 +29,8 @@ And this show what kinds of beer they are brewing:
 ## Data Organization 
 After EDA, the data had to be reshaped to be able to work with surprise.  It had to be in a pandas DataFrame with the columns: User ID, Item and Review.
 
+Insert pic here.
+
 ## Model Results
 
 ![image of model outcomes](/readme/imagenet2_testcm.png)
