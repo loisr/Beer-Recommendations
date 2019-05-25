@@ -7,7 +7,8 @@ Beer Recommendation System. Final Project for Flatiron School.
 Everyone enjoys a good drink, but what is a good drink? Everyone has different tastes and preferances. My goal was to create a beer recomendation system so that people don't have to waste time and money trying beer that they don't like, and are more apt to try something new that they will enjoy based on past preferances.  
 
 ## Sources
-Data from BeerAdvocate.com 
+User and rating data from BeerAdvocate.com 
+Addtional data for content filtering from brewerydb.com
 
 ## Exploratory Data Analysis 
 This shows the amount of reviews by beer type of the 10 most popular styles of beer in the dataset: 
