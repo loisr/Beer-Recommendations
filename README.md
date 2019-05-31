@@ -1,6 +1,6 @@
 # Mod 5 Project
 
-# Beer-Recommendations
+# Beer Recommendations
 Beer Recommendation System. Final Project for Flatiron School.
 
 ## Motivation
